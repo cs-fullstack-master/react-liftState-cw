@@ -1,12 +1,14 @@
 # react-liftState-cw
 
 ### Exercise 1
-Create one component with player # and a button. Call it twice in a parent component. In the parent component print out the Player number that pressed the button last.
+Create a `Player` component with player # label and a button. Call it twice from the parent component. In the parent component print out the Player number that pressed the button last.
 
-### Challenge
-Make the two player game similar to what we've done in the past.
+### Exercise 2:
+Make a 2 player game
 
-Create one component that will be used twice. The component should have 2 labels with buttons below them. The first label should say Player # and the second should be the score. The button should say “1 pt”.
+Create a `Player` component. The component should have 2 labels with buttons below them. The first label should say the Player # and the second should be the player's score. The button should say “1 pt”. The `Player` component should keep up with it's score in state.
 
-Click the appropriate button to make each player's score go up. There should only be one component created for both players. In the parent class you should determine who's in the lead.
+Click the appropriate button to make each player's score go up. In the parent class you should determine who's in the lead.
+
+![Example Page](./2019-04-04_cw.png)
 
