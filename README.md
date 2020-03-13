@@ -10,7 +10,3 @@ Create one component that will be used twice. The component should have 2 labels
 
 Click the appropriate button to make each player's score go up. There should only be one component created for both players. In the parent class you should determine who's in the lead.
 
-### Note:
-You can call a function after setState if you want it to run after the state has been set.
-
-```setState({something: something}, ()=>something);```
